@@ -5,6 +5,7 @@
     --primary-white-color: #ffffff;
     --background-collor: ##F5F5F5;
     --logo-color: #000000;
+    --button-color: #F5F4FA;
 }
 
 body {
@@ -56,6 +57,7 @@ body {
     color:var(--tittle-text-color);
 
     font-family: 'Roboto' sans-serif; 
+    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1;
@@ -91,6 +93,7 @@ color: var(--accemt-collor);
     width: 216px; 
     height: 50px;
 
+    border:none;
     
 }
 
@@ -102,6 +105,7 @@ color: var(--accemt-collor);
     font-size: 16px;
     line-height: 1.9;
     text-align: center;
+  
 }
 /* benefits */
 .ben-list {
@@ -171,4 +175,44 @@ color: var(--accemt-collor);
     line-height: 1.8;
     text-decoration: none;
 
+}
+
+/* button-portfolio */
+.list button {
+    background-color: var(--button-color);
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    border: none;
+    
+    text-align: center;
+    letter-spacing: 0.03em;
+    border-radius: 4px;
+}
+
+.list button:hover,
+.list button:focus {
+    background-color: var(--accemt-collor);
+    color: var(--primary-white-color);
+}
+
+/* Portoflio */
+.port-tittle {
+    color: var(--primary-text-color);
+
+    
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.port-par {
+    color: var(--tittle-text-color);
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
 }
